@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<FFINC>
+<Projects>
+
+<Project>
+<Name>MODULAR STEEL BUILDING, HANGZHOU, CHINA /HT</Name>
+<Desc>Full structural design and preparing structural package documentation (Structural Layout drawings + Calculation sheet) of steel modular building consisting of 77 modules.
+</Desc>
+<Profile></Profile>
+
+<Pictures>
+<Picture></Picture>
+</Pictures>
+
+</Project>
+
+
+
+
+
+
+<Project>
+<Name>BIM MODELING AND STRUCTURAL DESIGN OF INDUSTRIAL PLANT - GERMANY KZ</Name>
+<Desc>Our Client required structural BIM modeling and structural modeling and design of a 10500m2 industrial facility consisting of a steel structure with adjacent concrete administrative buildings.All steel and concrete elements and slabs were successfully modeled in Revit structure 2017 and later exported to a 3D structural model for analysis of base reaction and steel design to Eurocode 3.A full 3D BIM and model of was presented along with a detailed structural analysis and design report containing all the design parameters and results.</Desc>
+<Profile></Profile>
+
+<Pictures>
+<Picture></Picture>
+</Pictures>
+
+</Project>
+
+
+
+
+
+
+
+<Project>
+<Name>RC Analysis and Design of Residential Building - Germany
+</Name>
+
+<Desc>
+our Client required to create a 3D structural analysis model out of a 6- story residential building a BIM model to: 
+
+    1. Analyze the effect of the lateral loads (wind) on the walls and columns of the structure. 
+ 2. Obtain the Pile foundation reactions. 
+ 3. Design the slabs and foundation raft to EN1992-1-1:2004 incorporating Corrigendum dated January 2008.  
+  
+All the required tasks were done successfully including modifications to the original package. An accurate structural model and a detailed analysis and design report were presented maintaining the client satisfaction.  
+</Desc>
+<Profile></Profile>
+
+<Pictures>
+<Picture></Picture>
+</Pictures>
+
+</Project>
+
+
+
+
+
+
+
+<Project>
+<Name>Structural Modeling of Composite truss elements - Germany</Name>
+<Desc>
+  Creating and analysis of Composite truss using SAP2000 and then modeling supports as solid structure. In order to perform structural revision of an existing arched sawtooth roof over a sports hall.
+</Desc>
+<Profile></Profile>
+
+<Pictures>
+<Picture></Picture>
+</Pictures>
+
+</Project>
+
+
+
+
+</Projects>
+
+<Services>
+</Services>
+
+<Team></Team>
+
+</FFINC>
+
