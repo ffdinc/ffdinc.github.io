@@ -40441,7 +40441,6 @@ function SendMail(mailfrom,mailto,mailsubject,mailhtml)
  
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(sendgridapikey);
-sgMail.client.setDefaultRequest('baseUrl', 'http://localhost/');
 const msg = {
   to: mailto,
   from: mailfrom,
