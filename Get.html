@@ -6,6 +6,7 @@
     var themeHasJQuery = !!window.jQuery;
 </script>
 <script type="text/javascript" src="./assets/js/jquery.js?1.0.1163"></script>
+<script type="text/javascript" src="./assets/js/bundle.js"></script>
 <script>
     window._$ = jQuery.noConflict(themeHasJQuery);
 </script>
@@ -218,7 +219,7 @@
 </div>
 	
 		<a 
- href="" class="bd-linkbutton-59  bd-button-64  bd-content-element"    >
+ href="#" class="bd-linkbutton-59  bd-button-64  bd-content-element"  onclick="SendEMail();"  >
     Submit&nbsp;
 </a>
         </div>
@@ -251,5 +252,18 @@
 		<div data-smooth-scroll data-animation-time="250" class=" bd-smoothscroll-3"><a href="#" class=" bd-backtotop-1 ">
     <span class="bd-icon-67 bd-icon "></span>
 </a></div>
+
+
+<script>
+
+ function SendEMail(){
+ var mailfrom = 'baher_tharwatt@hotmail.com';
+ var mailto = 'baher.tharwatt@gmail.com';
+ var mailsubject = 'TEst Mail from Sendgrid';
+ var mailhtml = '<html><body><h1>Send Mail Now.</h1></body></html>';
+ SendGridMail(mailfrom,mailto,mailsubject,mailhtml);
+}
+</script>
+
 </body>
 </html>
