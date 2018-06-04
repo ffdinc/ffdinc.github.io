@@ -9185,7 +9185,8 @@ a.bd-backtotop-1:hover {
   border: 1px solid #7d7b78;
   border-radius: 0px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-  color: #c2c2c2;
+  /*color: #c2c2c2;*/
+  color: Black;
 }
 .bd-form-4 .bd-form-input[type="text"]::-webkit-input-placeholder {
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;

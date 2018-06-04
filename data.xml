@@ -9,10 +9,7 @@
 <Profile></Profile>
 
 <Pictures>
-<Picture>assets/images/9c3547214e7ae686c21492c252cd71fa_ALL_Structure_3D.jpg</Picture>
-<Picture>assets/images/80465902ccf6e857844cbef8d6510b43_Zoom_2.jpg</Picture>
-<Picture>assets/images/c723afeebbcda5f0673a61007142f102_Zoom_3.jpg</Picture>
-
+<Picture></Picture>
 </Pictures>
 
 </Project>
@@ -28,8 +25,7 @@
 <Profile></Profile>
 
 <Pictures>
-<Picture>assets/images/69c2b1e6528d320e981f171e295e569f_Porsche_B63_Manufacturing_FacilityBIM.jpg</Picture>
-<Picture>assets/images/27ae7c09852ea3b2bcc73c7d2c522c8e_Porsche_B63_Manufacturing_Facility.jpg</Picture>
+<Picture></Picture>
 </Pictures>
 
 </Project>
@@ -56,8 +52,7 @@ All the required tasks were done successfully including modifications to the ori
 <Profile></Profile>
 
 <Pictures>
-<Picture>assets/images/338585e7b3ec4c48a967d84fb39f920a_5_Storey_Residential_BuildingBIM.JPG</Picture>
-<Picture>assets/images/a137df950e9cd6af77c15bc7b12d6719_5_Storey_Residential_Building.JPG</Picture>
+<Picture></Picture>
 </Pictures>
 
 </Project>
@@ -76,78 +71,7 @@ All the required tasks were done successfully including modifications to the ori
 <Profile></Profile>
 
 <Pictures>
-<Picture>assets/images/92ca7cc68922068af32e51b357033a59_FEM_Models.JPG</Picture>
-<Picture>assets/images/c88de34b645fb87bfeb351c8411b8236_P1060660.JPG</Picture>
-<Picture>assets/images/5045c60ddfbb3bcc1d11b9763e294bae_P1060670.JPG</Picture>
-</Pictures>
-
-</Project>
-
-
-
-
-<Project>
-<Name>Structural modeling of 14 floor Building 
-New Zealand</Name>
-<Desc>
-  Full structural modelling of 14 floor steel building with seismic isolators using SAP2000. Applying all loads according to AS/NZS 1170.</Desc>
-<Profile></Profile>
-
-<Pictures>
-<Picture>assets/images/1257c229a21cb854a7269b6b52479102_Cathedreal_Towers_NZ.PNG</Picture>
-</Pictures>
-
-</Project>
-
-
-
-
-<Project>
-<Name> Structural design of Cooler steel platform to AISC 360-10  
-</Name>
-<Desc>
-Preparing Finite element model and structural report for a steel platform carrying fluid coolers. All the checks of different elements were carried out to AISC 360-10 in addition to checking resonance due to dynamic vibrations of the fans.  
-
-</Desc><Profile></Profile>
-
-<Pictures>
-<Picture>assets/images/b3aebbb768f70ef1ce932448e7fadfd4_Actual_FEM.JPG</Picture>
-</Pictures>
-
-</Project>
-
-
-
-
-
-<Project>
-<Name>   Multi-Storey Factory Extension - Germany  
- 
-</Name>
-<Desc>
-  3D modeling and analysis of the factory extension building using ETABS and generating of a full structural analysis report. 
-</Desc>
- <Profile></Profile>
-<Pictures>
-<Picture>assets/images/7dbb5d3cfa15b72cf40cc41a61d80418_4_Storey_Factory_Extension_Ostfildern.jpg</Picture>
-</Pictures>
-
-</Project>
-
-
-
-
-<Project>
-<Name>     Steel production hall- Germany     
-
- 
-</Name>
-<Desc>
-<i>Total area: 8000m2 Total structural steel weight: 600 tons.</i>
-  Full Structural design and preparing structural package documentation ( Structural Layout Drawings + Calculation sheet) of a steel production hall with crane girders to EC3. 
-</Desc>
-  <Pictures>
-<Picture>assets/images/011a924435c9f1240b653731a63d178f_8000m2_590T_Industrial_Hall_Ebermannsdorf.JPG</Picture>
+<Picture></Picture>
 </Pictures>
 
 </Project>

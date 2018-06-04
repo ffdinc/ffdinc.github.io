@@ -101,6 +101,7 @@
                             </li>
                             
                             <li class=" bd-menuitem-54 ">
+							
                                 <a 
  class="active" title="Get a quote" href="./Get.html" >Get a quote</a>
                                 
@@ -182,7 +183,7 @@
     <label class="bd-form-label">Job Tiltle</label>
     
 
-    <input type="text" class="bd-form-input"
+    <input type="text" id="Title" class="bd-form-input"
  placeholder="what do you do" >
 
     
@@ -192,7 +193,7 @@
     <label class="bd-form-label">Mail</label>
     
 
-    <input type="text" class="bd-form-input"
+    <input type="text" id="Mail" class="bd-form-input"
  placeholder="To keep in touch" >
 
     
@@ -202,7 +203,7 @@
     <label class="bd-form-label">Phone</label>
     
 
-    <input type="text" class="bd-form-input"
+    <input type="text" id="Phone" class="bd-form-input"
  placeholder="To make things easier" >
 
     
@@ -212,12 +213,13 @@
     <label class="bd-form-label">Your project</label>
     
 
-    <textarea class="bd-form-input"
+    <textarea class="bd-form-input" id="Project"
  placeholder="Tell us a short brief about your project"></textarea>
 
     
 </div>
-	
+	<span id="output"></span>
+							<br>
 		<a 
  href="#" class="bd-linkbutton-59  bd-button-64  bd-content-element"  onclick="SendEMail();"  >
     Submit&nbsp;
@@ -257,11 +259,43 @@
 <script>
 
  function SendEMail(){
- var mailfrom = 'baher_tharwatt@hotmail.com';
- var mailto = 'baher.tharwatt@gmail.com';
- var mailsubject = 'TEst Mail from Sendgrid';
- var mailhtml = '<html><body><h1>Send Mail Now.</h1></body></html>';
- SendGridMail(mailfrom,mailto,mailsubject,mailhtml);
+ var Name=document.getElementById('Name').value;
+ var Title=document.getElementById('Title').value;
+ var Mail=document.getElementById('Mail').value;
+ var Phone=document.getElementById('Phone').value;
+ var Project=document.getElementById('Project').value;
+ 
+  var outputspan=document.getElementById('output');
+
+ 
+ var mailfrom = {'email':Mail,'name':Name};
+ var mailto = 
+ [
+ //{'email':'...','name':'Farah EL Dib'}
+ //,
+ {'email':'baher.tharwatt@gmail.com','name':'Baher Farag'}
+ ];
+ var mailsubject = '[FFDINC] New Project Proposal';
+ var mailhtml = '<html><body><h1>New Project Proposal with Below details</h1>';
+ 
+ mailhtml += '<table cellspacing="0" style="font-size:18pt;">';
+ mailhtml += '<tr><td style="border:1px solid gray;"><b>Name:</b></td><td style="border:1px solid gray;">'+Name+'</td></tr>';
+ mailhtml += '<tr><td style="border:1px solid gray;"><b>Title:</b></td><td style="border:1px solid gray;">'+Title+'</td></tr>';
+ mailhtml += '<tr><td style="border:1px solid gray;"><b>Phone:</b></td><td style="border:1px solid gray;">'+Phone+'</td></tr>';
+ mailhtml += '<tr><td style="border:1px solid gray;"><b>Mail:</b></td><td style="border:1px solid gray;">'+Mail+'</td></tr>';
+ mailhtml += '<tr><td style="border:1px solid gray;"><b>Project:</b></td><td style="border:1px solid gray;">'+Project+'</td></tr>';
+ mailhtml += '</table></body></html>';
+ var test=SendGridMail(mailfrom,mailto,mailsubject,mailhtml);
+ 
+ test.then(function(data) {
+outputspan.style.color = 'Green';
+outputspan.innerText = 'Mail has been sent!';
+}, function(error) {
+outputspan.style.color = 'Red';
+outputspan.innerText = 'Something wrong! , please try again';
+
+});;
+ 
 }
 </script>
 
